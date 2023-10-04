@@ -1,10 +1,12 @@
-import SearchField from "./components/SearchField/SearchField";
-import Logo from "./components/Logo/Logo";
+import Header from "./templates/Header/Header";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
-      <SearchField />
-      <Logo />
+      <div className="container">
+        <Header />
+      </div>
     </div>
   );
 }

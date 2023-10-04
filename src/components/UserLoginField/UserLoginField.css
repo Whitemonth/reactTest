@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/public/Roboto.ttf);
+}
+
+.login-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+}
+
+.userpic-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.username-text-field {
+  color: rgb(90, 90, 90);
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-weight: bolder;
+}
