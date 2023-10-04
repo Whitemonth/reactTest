@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/public/Roboto.ttf);
+}
+
+.logo-frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  height: 60px;
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+}
+
+.company-name-logo {
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(58, 58, 58);
+}
